@@ -1,0 +1,895 @@
+.dot-container {
+  display: flex;
+  position: relative;
+  margin-top: 300px;
+  width: 40px; 
+  height: 40px; 
+}
+.line-horizontal50 {
+  position: absolute;
+  top: 50%;
+  left:164px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;/* Center the line horizontally */
+}
+.line-horizontal71 {
+  position: absolute;
+  top: 50%;
+  left:244px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;/* Center the line horizontally */
+}
+
+.outer-circle, .inner-circle {
+  position: absolute;
+  top: 98%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.outer-circle {
+  background-color: #000;
+  width: 20px; 
+  height: 20px; 
+}
+.inner-circle {
+  background-color: #fff;
+  width: 10px; 
+  height: 10px; 
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 75px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+}
+.line-vertical {
+  position: absolute;
+  top: -150px;
+  left: 60px;  
+  width: 2px;  
+  height: 380px;  
+  background-color: black;
+}
+.line-horizontal {
+  position: absolute;
+  top: 50%;
+  left: -20px;  
+  width: 100px;  
+  height: 2px;  
+  background-color: black;
+}
+/*........................... research ....................................................................*/
+.line-horizontal1 {
+  position: absolute;
+  top: 0%;
+  left: 0px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.arrow1 {
+  position: absolute;
+  top: 50%;
+  left: 60px; /* Adjust the left position of the arrow */
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+}
+.Research19 {
+  top: -500px;
+  margin-top: -10px;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 53px 10px 10px;
+  left: 200px;
+  width: 100px; 
+  height: 15px; 
+}
+.line-horizontal67 {
+  position: absolute;
+  top: 50%;
+  left:119px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.arrow50 {
+  position: absolute;
+  top: 50%;
+  left: 60px; /* Adjust the left position of the arrow */
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+}
+.arrow3 {
+  position: absolute;
+  top: 50%;
+  left: 88px; /* Adjust the left position of the arrow */
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+}
+.line-horizontal68 {
+  position: absolute;
+  top: 90%;
+  left: 188px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+        transform-origin: left top;
+}
+.line-horizontal58 {
+  position: absolute;
+  top: 60%;
+  left: 62px;  
+  width: 89px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-47deg);
+        transform-origin: left top;
+}
+.line-horizontal78 {
+  position: absolute;
+  top: 60%;
+  left: 212px;  
+  width: 89px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal77 {
+  position: absolute;
+  top: 10%;
+  margin-top: -64px;
+  left: 152px;  
+  width: 89px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal79 {
+  position: absolute;
+  top: 60%;
+  left: 90px;  
+  width: 89px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-47deg);
+        transform-origin: left top;
+}
+.line-horizontal84 {
+  position: absolute;
+  top: -64px;
+  left: 122px;  
+  width: 89px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal75 {
+  position: absolute;
+  top: 60%;
+  left: 212px;  
+  width: 89px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal76 {
+  position: absolute;
+  top: 60%;
+  left: 90px;  
+  width: 89px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(47deg);
+        transform-origin: left top;
+}
+.line-horizontal59 {
+  position: absolute;
+  top: 60%;
+  left: 65px;  
+  width: 89px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(47deg);
+        transform-origin: left top;
+}
+.line-horizontal73 {
+  position: absolute;
+  top: 80%;
+  left: 245px;  
+  width: 67px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal72 {
+  position: absolute;
+  top: 60%;
+  left: 65px;  
+  width: 89px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(47deg);
+        transform-origin: left top;
+}
+.line-horizontal69 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 62px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+  transform-origin: left top;
+}
+
+.line-horizontal46 {
+  position: absolute;
+  top: 50%;
+  left:95px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal47 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 69px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-80deg);
+  transform-origin: left top;
+}
+.line-horizontal49 {
+  position: absolute;
+  top: 10%;
+  margin-top: -67px;
+  left: 80px;  
+  width: 110px;  
+  height: 2px;  
+  background-color: black;
+}
+
+.line-horizontal43 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 69px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+  transform-origin: left top;
+}
+
+.line-horizontal42 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 62px;  
+  width:56px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+  transform-origin: left top;
+}
+.line-horizontal41 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 69px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+  transform-origin: left top;
+}
+.line-horizontal40 {
+  position: absolute;
+  top: 30%;
+  margin-top: 1%;
+  left: 62px;  
+  width:56px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+  transform-origin: left top;
+}
+.line-horizontal44 {
+  position: absolute;
+  top: 10%;
+  margin-top: 62px;
+  left: 80px;  
+  width: 110px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal45 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 70px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(80deg);
+  transform-origin: left top;
+}.line-horizontal8 {
+  position: absolute;
+  top: 90%;
+  left: 188px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+        transform-origin: left top;
+}
+.line-horizontal10 {
+  position: absolute;
+  top: 40%;
+  left: 62px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+  transform-origin: left top;
+}
+.h01,
+ .h02,
+.online,
+.interview,
+.public-data,
+.health,.line-horizontal46 {
+  display: none;
+  cursor: pointer;
+} 
+.Research19:hover +.h01 {
+  cursor: pointer;
+  display: block;
+}
+.B2c:hover + .online ,
+.B2c:hover + .interview ,
+.B2c:hover + .public-data,
+.B2c:hover + .health {
+  display: block;
+}
+/* ......................Planning........................................................................................... */
+.line-horizontal2 {
+  position: absolute;
+  top: 25%;
+  left: 0px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.arrow2 {
+  position: absolute;
+  top: 50%;
+  left: 60px; 
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+}
+.Research17 {
+  top: -200px;
+  background-color: rgb(126, 211, 222);
+  padding: 10px 53px 10px 10px;
+  text-align: center;
+  left: 200px;
+  cursor: pointer;
+  width: 90px; 
+  height: 100px; 
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+.line-horizontal22 {
+  position: absolute;
+  top: 50%;
+  left:119px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal19 {
+  position: absolute;
+  top: 90%;
+  left: 188px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+        transform-origin: left top;
+}
+.line-horizontal18 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 62px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+  transform-origin: left top;
+}
+.line-horizontal16 {
+  position: absolute;
+  top: 90%;
+  left: 188px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+        transform-origin: left top;
+}
+.line-horizontal11 {
+  position: absolute;
+  top: 40%;
+  left: 62px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+  transform-origin: left top;
+}
+/* .............. */
+.h05,.h07,
+.prd-line1,
+.prd-online,
+.prd-interview,
+.prd-public-data,
+.prd-health {
+  display: none;
+  cursor: pointer;
+} 
+.Research17:hover +.h07 {
+  cursor: pointer;
+  display: block;
+}
+.plann:hover + .h05{
+  display: block;
+}
+.B2C:hover + .prd-line1,
+.B2C:hover + .prd-online ,
+.B2C:hover + .prd-interview ,
+.B2C:hover + .prd-public-data,
+.B2C:hover + .prd-health {
+  display: block;
+}
+/* .............. */
+
+/* ............................Manufacrure.............................................................................................. */
+.line-horizontal3 {
+  position: absolute;
+  top: 76%;
+  left: 0px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.Research11{
+  line-height: 1; 
+  top: -200px;
+  background-color: rgb(171, 255, 102);
+  padding: 10px 15px 10px  10px;
+  text-align: center;
+  left: 200px;
+  cursor: pointer;
+  width: 100px; 
+  height: 10px;  
+  display: flexbox;
+  justify-content: center;  
+  align-items: center;
+}
+
+.line-horizontal26 {
+  position: absolute;
+  top: 50%;
+  left:119px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal27 {
+  position: absolute;
+  top: 90%;
+  left: 188px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+        transform-origin: left top;
+}
+.line-horizontal29 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 62px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+  transform-origin: left top;
+}
+.line-horizontal99 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 62px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+  transform-origin: left top;
+}
+.line-horizontal91 {
+  position: absolute;
+  top: 50%;
+  left:95px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal98 {
+  position: absolute;
+  top: 90%;
+  left: 160px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+        transform-origin: left top;
+}
+.line-horizontal446 {
+  position: absolute;
+  top: 50%;
+  left:55px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.line-horizontal88 {
+  position: absolute;
+  top: 90%;
+  left: 158px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+        transform-origin: left top;
+}
+.line-horizontal110 {
+  position: absolute;
+  top: 40%;
+  left: 62px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+  transform-origin: left top;
+}
+.line-horizontal28 {
+  position: absolute;
+  top: 90%;
+  left: 188px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(20deg);
+        transform-origin: left top;
+}
+
+.line-horizontal12 {
+  position: absolute;
+  top: 40%;
+  left: 62px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+  transform-origin: left top;
+}
+
+/* .................................... */
+.h3,.h08,.h7,
+.line-horizontal446,
+.manufacture-online,
+.manufacture-interview,
+.manufacture-public-data,
+.manufacture-health {
+  display: none;
+  cursor: pointer;
+} 
+.manu:hover +.h7 {
+  display: block;
+}
+
+.Research11:hover + .h08 {
+  display: block;
+}
+.C2C:hover + .line-horizontal446,
+.C2C:hover + .manufacture-online ,
+.C2C:hover + .manufacture-interview ,
+.C2C:hover + .manufacture-public-data,
+.C2C:hover + .manufacture-health {
+  display: block;
+}
+/* ..........................Sale/Marketing.................................................................................................................... */
+
+.line-horizontal4 {
+  position: absolute;
+  top: 100%;
+  left: 0px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+}
+.Research10{
+  top: -200px;
+  background-color: rgb(246, 49, 216);
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  left: 200px;
+  cursor: pointer;
+  height:20px;
+  width: 10px; 
+  display: flexbox;
+  justify-content: center;  
+  align-items: center;
+  line-height: -2.8px;
+}
+.line-horizontal7 {
+  position: absolute;
+  top: 90%;
+  left: 188px;  
+  width: 65px;  
+  height: 2px;  
+  background-color: black;
+  transform: rotate(-20deg);
+        transform-origin: left top;
+}
+.line-horizontal9 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 62px; 
+  width: 65px; 
+  height: 2px; 
+  background-color: black;
+  transform: rotate(20deg);
+  transform-origin: left top;
+}
+.line-horizontal556 {
+  position: absolute;
+  top: 50%;
+  left:85px;
+  width: 65px;
+  height: 2px;
+  background-color: black;
+}
+.line-horizontal56 {
+  position: absolute;
+  top: 5px; 
+  width: 65px;
+  height: 2px;
+  background-color: black;
+}
+.line-horizontal13 {
+  position: absolute;
+  top: 40%;
+  left: 62px; 
+  width: 65px;
+  height: 2px;
+  background-color: black;
+  transform: rotate(-20deg);
+  transform-origin: left top;
+}
+/* ............. */
+.h12,.h13,.sale-line1,
+.sale-online,
+.sale-interview,
+.sale-public-data,
+.sale-health {
+  display: none;
+  cursor: pointer;
+} 
+.sale:hover +.h13 {
+  display: block;
+}
+
+.online1:hover + .h12 {
+  display: block;
+}
+
+.B2G:hover + .sale-line1,
+.B2G:hover + .sale-online ,
+.B2G:hover + .sale-interview ,
+.B2G:hover + .sale-public-data,
+.B2G:hover + .sale-health {
+  display: block;
+}
+/* ...........................Designing.............................................................................................................................................. */
+.line-horizontal15 {
+  position: absolute;
+  top: 40%;
+  left: 62px; 
+  width: 65px;
+  height: 2px;
+  background-color: black;
+  transform: rotate(-20deg);
+  transform-origin: left top;
+}
+
+.Research9 {
+  top: -200px;
+  background-color: red;
+  padding: 10px 45px 10px 10px;
+  text-align: center;
+  left: 200px;
+  cursor: pointer;
+  width: 190px; 
+  height: 100px; 
+  display: flexbox;
+  justify-content: center; 
+  align-items: center;
+}
+.arrow50 {
+  position: absolute;
+  top: 50%;
+  left: 108px; 
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+}
+.arrow51 {
+  position: absolute;
+  top: 50%;
+  left: 108px; 
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+}
+.line-horizontal6 {
+  position: absolute;
+  top: 50%;
+  left:119px; 
+  width: 65px;
+  height: 2px; 
+  background-color: black;
+}
+.line-horizontal14 {
+  position: absolute;
+  top: 40%;
+  margin-top: -1.8%;
+  left: 62px; 
+  width: 65px; 
+  height: 2px; 
+  background-color: black;
+  transform: rotate(20deg);
+  transform-origin: left top;
+}
+/* .............. */
+.h1,.h8,
+.design-line1,
+.design-online,
+.design-interview,
+.design-public-data,
+.design-health {
+  display: none;
+  cursor: pointer;
+} 
+.design:hover +.h1 {
+  display: block;
+}
+
+.hard:hover + .h8 {
+  display: block;
+}
+.C2B:hover + .design-line1,
+.C2B:hover + .design-online ,
+.C2B:hover + .design-interview ,
+.C2B:hover + .design-public-data,
+.C2B:hover + .design-health {
+  display: block;
+}
+/* The bar container */
+.middle {
+  background: #dcd7d7;
+  padding: 10px 500px 10px 10px ; /* Gray background color */
+}
+.side {
+  display: inline-flex;
+  align-items: center;
+ 
+}
+.side1 {
+  display: inline-flex;
+  align-items: center;
+ 
+}
+.bar-container1 {
+  top: -200px;
+  width: 200px; 
+  height: 28px; 
+  background-color: #04AA6D;
+  border: 3px solid #dcd7d7;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center; 
+  align-items: center;
+}
+.bar-container2 {
+  top: -200px;
+  width: 150px; 
+  height: 28px; 
+  background-color: #04AA6D;
+  border: 3px solid #dcd7d7;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center; 
+  align-items: center;
+}
+.br{
+  left: 120px;
+}
+.dra{
+  margin-top: 10px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.bar-container3 {
+  top: -200px;
+  width: 100px; 
+  height: 28px; 
+  background-color: #04AA6D;
+  border: 3px solid #dcd7d7;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center; 
+  align-items: center;
+}
+/* Individual bars */
+/* .............................................................................................................................................................................................. */
+@media screen and (max-width: 900px) {
+  .ddd {
+    top:600px;
+    border: 1px solid black;
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
+  }
+  
+}
+/* .................... */
